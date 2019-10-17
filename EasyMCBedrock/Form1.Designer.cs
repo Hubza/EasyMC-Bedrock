@@ -35,17 +35,17 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.hubz = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
-            this.hubz = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.listBox2 = new System.Windows.Forms.ListBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.listBox2 = new System.Windows.Forms.ListBox();
             this.button8 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -155,6 +155,28 @@
             this.panel2.Size = new System.Drawing.Size(644, 23);
             this.panel2.TabIndex = 4;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Exo 2", 8.25F);
+            this.label1.Location = new System.Drawing.Point(345, 5);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(296, 13);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Beta 0.1      -      Created by Hubz - https://www.hub2hub.xyz";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.label1.Click += new System.EventHandler(this.Label1_Click);
+            // 
+            // hubz
+            // 
+            this.hubz.AutoSize = true;
+            this.hubz.Font = new System.Drawing.Font("Exo 2", 8.25F);
+            this.hubz.Location = new System.Drawing.Point(3, 5);
+            this.hubz.Name = "hubz";
+            this.hubz.Size = new System.Drawing.Size(234, 13);
+            this.hubz.TabIndex = 4;
+            this.hubz.Text = "EasyMC Bedrock - Bedrock Mods made easier!";
+            // 
             // button5
             // 
             this.button5.AccessibleRole = System.Windows.Forms.AccessibleRole.TitleBar;
@@ -209,16 +231,6 @@
             this.button7.Text = "Install Behavior Pack";
             this.button7.UseVisualStyleBackColor = false;
             // 
-            // hubz
-            // 
-            this.hubz.AutoSize = true;
-            this.hubz.Font = new System.Drawing.Font("Exo 2", 8.25F);
-            this.hubz.Location = new System.Drawing.Point(3, 5);
-            this.hubz.Name = "hubz";
-            this.hubz.Size = new System.Drawing.Size(234, 13);
-            this.hubz.TabIndex = 4;
-            this.hubz.Text = "EasyMC Bedrock - Bedrock Mods made easier!";
-            // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(40)))), ((int)(((byte)(17)))));
@@ -229,16 +241,15 @@
             this.panel3.Size = new System.Drawing.Size(290, 352);
             this.panel3.TabIndex = 4;
             // 
-            // label1
+            // label2
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Exo 2", 8.25F);
-            this.label1.Location = new System.Drawing.Point(413, 5);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(228, 13);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Created by Hubz - https://www.hub2hub.xyz";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Exo 2", 8.25F);
+            this.label2.Location = new System.Drawing.Point(3, 7);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(82, 13);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "Behavior Packs";
             // 
             // listBox1
             // 
@@ -263,6 +274,16 @@
             this.panel4.Size = new System.Drawing.Size(290, 352);
             this.panel4.TabIndex = 5;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Exo 2", 8.25F);
+            this.label3.Location = new System.Drawing.Point(3, 7);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(84, 13);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "Resource Packs";
+            // 
             // listBox2
             // 
             this.listBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(40)))), ((int)(((byte)(17)))));
@@ -275,26 +296,6 @@
             this.listBox2.Name = "listBox2";
             this.listBox2.Size = new System.Drawing.Size(268, 323);
             this.listBox2.TabIndex = 0;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Exo 2", 8.25F);
-            this.label2.Location = new System.Drawing.Point(3, 7);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(82, 13);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "Behavior Packs";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Exo 2", 8.25F);
-            this.label3.Location = new System.Drawing.Point(3, 7);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(84, 13);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "Resource Packs";
             // 
             // button8
             // 

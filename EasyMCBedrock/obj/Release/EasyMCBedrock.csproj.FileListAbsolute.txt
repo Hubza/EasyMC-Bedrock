@@ -10,3 +10,15 @@ C:\Users\hubst\source\repos\EasyMCBedrock\EasyMCBedrock\obj\Release\EasyMCBedroc
 C:\Users\hubst\source\repos\EasyMCBedrock\EasyMCBedrock\obj\Release\EasyMCBedrock.csproj.CopyComplete
 C:\Users\hubst\source\repos\EasyMCBedrock\EasyMCBedrock\obj\Release\EasyMCBedrock.exe
 C:\Users\hubst\source\repos\EasyMCBedrock\EasyMCBedrock\obj\Release\EasyMCBedrock.pdb
+C:\Users\hubst\source\repos\EasyMCBedrock\EasyMC-Bedrock\EasyMCBedrock\bin\Release\EasyMCBedrock.exe.config
+C:\Users\hubst\source\repos\EasyMCBedrock\EasyMC-Bedrock\EasyMCBedrock\bin\Release\EasyMCBedrock.exe
+C:\Users\hubst\source\repos\EasyMCBedrock\EasyMC-Bedrock\EasyMCBedrock\bin\Release\EasyMCBedrock.pdb
+C:\Users\hubst\source\repos\EasyMCBedrock\EasyMC-Bedrock\EasyMCBedrock\bin\Release\Ionic.Zip.dll
+C:\Users\hubst\source\repos\EasyMCBedrock\EasyMC-Bedrock\EasyMCBedrock\obj\Release\EasyMCBedrock.csprojAssemblyReference.cache
+C:\Users\hubst\source\repos\EasyMCBedrock\EasyMC-Bedrock\EasyMCBedrock\obj\Release\EasyMCBedrock.EasyMCBedrock.resources
+C:\Users\hubst\source\repos\EasyMCBedrock\EasyMC-Bedrock\EasyMCBedrock\obj\Release\EasyMCBedrock.Properties.Resources.resources
+C:\Users\hubst\source\repos\EasyMCBedrock\EasyMC-Bedrock\EasyMCBedrock\obj\Release\EasyMCBedrock.csproj.GenerateResource.cache
+C:\Users\hubst\source\repos\EasyMCBedrock\EasyMC-Bedrock\EasyMCBedrock\obj\Release\EasyMCBedrock.csproj.CoreCompileInputs.cache
+C:\Users\hubst\source\repos\EasyMCBedrock\EasyMC-Bedrock\EasyMCBedrock\obj\Release\EasyMCBedrock.csproj.CopyComplete
+C:\Users\hubst\source\repos\EasyMCBedrock\EasyMC-Bedrock\EasyMCBedrock\obj\Release\EasyMCBedrock.exe
+C:\Users\hubst\source\repos\EasyMCBedrock\EasyMC-Bedrock\EasyMCBedrock\obj\Release\EasyMCBedrock.pdb

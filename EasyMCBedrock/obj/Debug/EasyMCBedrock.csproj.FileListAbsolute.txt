@@ -1,0 +1,12 @@
+C:\Users\hubst\source\repos\EasyMCBedrock\EasyMCBedrock\bin\Debug\EasyMCBedrock.exe.config
+C:\Users\hubst\source\repos\EasyMCBedrock\EasyMCBedrock\bin\Debug\EasyMCBedrock.exe
+C:\Users\hubst\source\repos\EasyMCBedrock\EasyMCBedrock\bin\Debug\EasyMCBedrock.pdb
+C:\Users\hubst\source\repos\EasyMCBedrock\EasyMCBedrock\obj\Debug\EasyMCBedrock.csprojAssemblyReference.cache
+C:\Users\hubst\source\repos\EasyMCBedrock\EasyMCBedrock\obj\Debug\EasyMCBedrock.EasyMCBedrock.resources
+C:\Users\hubst\source\repos\EasyMCBedrock\EasyMCBedrock\obj\Debug\EasyMCBedrock.Properties.Resources.resources
+C:\Users\hubst\source\repos\EasyMCBedrock\EasyMCBedrock\obj\Debug\EasyMCBedrock.csproj.GenerateResource.cache
+C:\Users\hubst\source\repos\EasyMCBedrock\EasyMCBedrock\obj\Debug\EasyMCBedrock.csproj.CoreCompileInputs.cache
+C:\Users\hubst\source\repos\EasyMCBedrock\EasyMCBedrock\obj\Debug\EasyMCBedrock.exe
+C:\Users\hubst\source\repos\EasyMCBedrock\EasyMCBedrock\obj\Debug\EasyMCBedrock.pdb
+C:\Users\hubst\source\repos\EasyMCBedrock\EasyMCBedrock\bin\Debug\Ionic.Zip.dll
+C:\Users\hubst\source\repos\EasyMCBedrock\EasyMCBedrock\obj\Debug\EasyMCBedrock.csproj.CopyComplete

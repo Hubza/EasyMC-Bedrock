@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Diagnostics;
+using Microsoft.Win32;
 using System.IO;
 
 namespace EasyMCBedrock
@@ -26,49 +27,82 @@ namespace EasyMCBedrock
         private delegate void RefreshD();
         private static RefreshD rd;
         public void RefreshA() {
-            listBox1.Items.Clear();
-            listBox2.Items.Clear();
 
+            string afileNameF;
+            string afinalpath;
+            string afinalpath2;
+            string pppdata;
 
-            string fileNameF;
-            string finalpath;
-            string finalpath2;
-            string appdata;
-
-
-            appdata = Environment.GetEnvironmentVariable("LocalAppData");
+            pppdata = Environment.GetEnvironmentVariable("LocalAppData");
             string[] array1 = Directory.GetDirectories(@"C:\");
-            finalpath = appdata + @"\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\behavior_packs\";
-            
+            afinalpath = pppdata + @"\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\";
 
-            foreach (var d in System.IO.Directory.GetDirectories(finalpath))
-            {
-                var dir = new DirectoryInfo(d);
-                var dirName = dir.Name;
+            if(Directory.Exists(afinalpath)){
+                listBox1.Items.Clear();
+                listBox2.Items.Clear();
 
-                listBox1.Items.Add(dirName);
+
+                string fileNameF;
+                string finalpath;
+                string finalpath2;
+                string appdata;
+
+
+                appdata = Environment.GetEnvironmentVariable("LocalAppData");
+                string[] Aarray1 = Directory.GetDirectories(@"C:\");
+                finalpath = appdata + @"\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\behavior_packs\";
+
+
+                foreach (var d in System.IO.Directory.GetDirectories(finalpath))
+                {
+                    var dir = new DirectoryInfo(d);
+                    var dirName = dir.Name;
+
+                    listBox1.Items.Add(dirName);
+                }
+
+                string RfileNameF;
+                string Rfinalpath;
+                string Rfinalpath2;
+                string Rappdata;
+
+
+                Rappdata = Environment.GetEnvironmentVariable("LocalAppData");
+                string[] Rarray1 = Directory.GetDirectories(@"C:\");
+                Rfinalpath = Rappdata + @"\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\resource_packs\";
+
+
+                foreach (var d in System.IO.Directory.GetDirectories(Rfinalpath))
+                {
+                    var Rdir = new DirectoryInfo(d);
+                    var RdirName = Rdir.Name;
+
+                    listBox2.Items.Add(RdirName);
+                }
             }
-
-            string RfileNameF;
-            string Rfinalpath;
-            string Rfinalpath2;
-            string Rappdata;
-
-
-            Rappdata = Environment.GetEnvironmentVariable("LocalAppData");
-            string[] Rarray1 = Directory.GetDirectories(@"C:\");
-            Rfinalpath = Rappdata + @"\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\resource_packs\";
-
-
-            foreach (var d in System.IO.Directory.GetDirectories(Rfinalpath))
+            else
             {
-                var Rdir = new DirectoryInfo(d);
-                var RdirName = Rdir.Name;
-
-                listBox2.Items.Add(RdirName);
+                if(IsWindows10()){
+                    MessageBox.Show("You dont seem to have Minecraft Bedrock installed!\nPlease install Minecraft Bedrock from the Microsoft Store and restart the application.", "Oops!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    refTimer.Enabled = false;
+                    Application.Exit();
+                }
+                else
+                {
+                    MessageBox.Show("It seems your not on Windows 10!\nSadly, Minecraft Bedrock for Windows only supports Windows 10. So you'll need to update!");
+                }
             }
-
         }
+
+        static bool IsWindows10()
+        {
+            var reg = Registry.LocalMachine.OpenSubKey(@"SOFTWARE\Microsoft\Windows NT\CurrentVersion");
+
+            string productName = (string)reg.GetValue("ProductName");
+
+            return productName.StartsWith("Windows 10");
+        }
+
         private static EasyMCBedrock myForm;
         private static void OnTimedEvent(Object source, System.Timers.ElapsedEventArgs e)
         {
